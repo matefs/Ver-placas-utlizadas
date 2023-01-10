@@ -7,7 +7,7 @@ function App() {
   const [data, setData] = useState([])
   const FormRef = useRef()
   const [ atualizaGrid, setAtualizaGrid  ] = useState(false)
-  const url = 'https://gelatinous-liberating-camp.glitch.me/'
+  const url = 'http://localhost:3001/'
   var UltimoIdCadastrado;
 
   async function CarregaDados() {
@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
 
-      <h1>Visualizador de placas Utilizadas</h1>
+      <h1>Visualizador de placas já Utilizadas</h1>
 
 
       <form onSubmit={inputaDados} ref={FormRef}>
@@ -51,6 +51,7 @@ function App() {
         <input type="text" id="inputCard" placeholder='Informe o card' />
         <input type="text" id="inputDesc" placeholder='Informe uma descricao' />
         <button type="submit">Salvar</button>
+        <button type="reset">Limpar</button>
       </form>
    
    
