@@ -1,3 +1,2 @@
 # Ver placas utilizadas 
-
-![image](https://user-images.githubusercontent.com/30128774/211440699-dd4838e0-3915-4fa7-a723-a1cb85adc735.png)
+![image](https://user-images.githubusercontent.com/30128774/211446570-192e8afb-1262-45da-aaae-9de6e813a243.png)
